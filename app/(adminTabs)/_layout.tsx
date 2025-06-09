@@ -36,14 +36,14 @@ export default function TabLayout() {
         name="resources"
         options={{
           title: "Recursos",
-          tabBarIcon: ({ color }) => <TabBarIcon name="user" color={"#1a365d"} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="list-alt" color={"#1a365d"} />,
         }}
       />
       <Tabs.Screen
         name="users"
         options={{
           title: "Usuários",
-          tabBarIcon: ({ color }) => <TabBarIcon name="user" color={"#1a365d"} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="users" color={"#1a365d"} />,
         }}
       />
       <Tabs.Screen
